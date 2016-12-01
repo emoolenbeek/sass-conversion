@@ -10,3 +10,9 @@
   }
   
 }
+
+@mixin media($foo){
+    @media all and (min-width: $foo){
+        @content
+    }
+}

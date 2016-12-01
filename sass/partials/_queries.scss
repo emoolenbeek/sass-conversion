@@ -1,5 +1,5 @@
 //_queries.scss
-@media all and (min-width:701px){
+@include media(701px){
     header{
         width: 700px;
         min-height: 8rem;
@@ -80,7 +80,7 @@
     }
     }
 }
-@media all and (min-width:901px){
+@include media(901px){
     header{
         width: 900px;
     &:before,
@@ -185,7 +185,7 @@
     }
     }
 }
-@media all and (min-width:1401px){
+@include media(1401px){
     header{
         width: 1400px;
     &:before,
