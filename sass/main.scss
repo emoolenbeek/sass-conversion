@@ -206,10 +206,14 @@ footer .fa-circle{
 footer h4[lang=de]{
    display:block;
 }
+.h7{
+    display: none;
+}
 footer h4[lang=en],
 footer h4[lang=ar],
 footer h4[lang=ru]{
-    display:none;
+//    display:none;
+    @extend .h7;
 }
 //Media queries
 @import "partials/queries";
