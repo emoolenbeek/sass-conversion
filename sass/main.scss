@@ -128,10 +128,10 @@ header nav>ul>li>a{
     padding:1.0rem 2rem;
     line-height: 1;
     background-color: #fff;
-}
-header nav>ul>li>a:hover{
+&:hover{
     font-weight: 700;
     color:$darkBrown;
+}
 }
 //Content
 header h1{
@@ -171,7 +171,7 @@ h2{
     padding-right: 2rem;
 }
 }
-.content1 p{
+.content1 p, p{
     font-size: 1.414rem;
     padding: 0.5rem 2rem 2rem;
 }
@@ -179,10 +179,6 @@ h2{
 h4{
     font-size: 1.999rem;
     padding: 1rem 2rem 0rem;
-}
-p{
-    font-size: 1.414rem;
-    padding: 0.5rem 2rem 1rem;
 }
 li{
     padding: 0.5rem 2rem;
