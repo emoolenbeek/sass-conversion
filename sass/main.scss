@@ -6,12 +6,13 @@
     margin: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-&:after,
-&:before{
+    &:after,
+    &:before{
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
 }
 }
+
 html{
     font-size: 16px;
     font-family: $font-sans-serif;
@@ -114,7 +115,8 @@ footer{
 header nav{
     padding:2rem 0;
     clear: both;
->ul>li>a{
+}
+header nav>ul>li>a{
     display:block;
     text-align: center;
     text-decoration: none;
@@ -125,12 +127,11 @@ header nav{
     border-bottom: none;
     padding:1.0rem 2rem;
     line-height: 1;
-    background-color: $white;
+    background-color: #fff;
 }
->ul>li>a:hover{
+header nav>ul>li>a:hover{
     font-weight: 700;
     color:$darkBrown;
-}
 }
 //Content
 header h1{
@@ -189,28 +190,26 @@ li{
 }
 }
 //Footer
-footer{
-h4{
+footer h4{
     font-size: 1.414rem;
     padding: 0.5rem 2rem;
     color: $darkBrown;
 }
-p{
+footer p{
     font-size: 1rem;
     padding: 0.5rem 2rem;
     color: $darkGrey;
 }
-.fa-circle{
+footer .fa-circle{
     color: $darkGrey;
 }
-h4[lang=de]{
+footer h4[lang=de]{
    display:block;
 }
-h4[lang=en],
-h4[lang=ar],
-h4[lang=ru]{
+footer h4[lang=en],
+footer h4[lang=ar],
+footer h4[lang=ru]{
     display:none;
-}
 }
 //Media queries
 @import "partials/queries";

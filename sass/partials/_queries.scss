@@ -22,9 +22,6 @@
         float: none;
         letter-spacing: 0.25rem;
         font-size: 3.998rem;
-        /**
-        1 lines of 3.998 * 1.6 = 6.3968
-        **/
         text-align: left;
     }
     nav{
@@ -53,6 +50,9 @@
     section.content2,
     footer{
         width: 700px; 
+        margin: 0 auto;
+    }
+    section.focal h2{
         margin: 0 auto;
     }
     .col-4{
@@ -99,7 +99,6 @@
         line-height: 6.3968rem;
     }
     h1 i.fa-lg ~ span{
-        float: none;
         letter-spacing: 0.25rem;
         font-size: 3.998rem;
         /**
@@ -117,14 +116,9 @@
         background-color: $white;
     }
     nav>ul>li>a{
-        font-size: 1rem;
-        line-height: 2rem;
         min-height: 2rem;
-        border:none;
-        border-left:1px solid $lightGrey; 
         padding: 0 1.0rem;
         margin: 1.0rem 0;
-        background-color: $white;
     }
     nav>ul>li:first-child a{
         border-left:none;
@@ -134,17 +128,14 @@
     section.content1,
     section.content2,
     footer{
-        width: 900px; 
-        margin: 0 auto;    
+        width: 900px;  
     }
     section.focal{
     h2{
         width: 600px; 
-        margin: 0 auto;
     }
     p.author{
-        width: 600px; 
-        margin: 0 auto;
+        width: 600px;
     }
     }
     .col-3{
@@ -213,7 +204,6 @@
         line-height: 6.3968rem;
     }
     h1 i.fa-lg ~ span{
-        float: none;
         letter-spacing: 0.25rem;
         font-size: 3.998rem;
         /**
@@ -232,13 +222,9 @@
     }
     nav>ul>li>a{
         font-size: 1.414rem;
-        line-height: 2rem;
         min-height: 2rem;
-        border:none;
-        border-left:1px solid $lightGrey; 
         padding:0 1.0rem;
         margin:1.0rem 0;
-        background-color: $white;
     }
     nav>ul>li:first-child a{
         border-left:none;
@@ -253,12 +239,10 @@
     }
     section.focal h2{
         font-size: 3.998rem;
-        width: 600px; 
-        margin: 0 auto;
+        width: 600px;
     }
     section.focal p.author{
-        width: 600px; 
-        margin: 0 auto;
+        width: 600px;
     }
     .col-3{
     @include equalSpaced(3,5%);
